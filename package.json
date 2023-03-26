@@ -1,0 +1,37 @@
+{
+  "name": "my-notes",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "npm run lint -- --fix",
+    "commit": "git cz"
+  },
+  "dependencies": {
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.29",
+    "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "5.56.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "git-cz": "4.9.0",
+    "prettier": "2.8.7",
+    "typescript": "5.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
