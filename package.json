@@ -11,7 +11,9 @@
     "commit": "git cz"
   },
   "dependencies": {
+    "@notionhq/client": "2.2.3",
     "next": "13.2.4",
+    "notion-to-md": "2.5.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
