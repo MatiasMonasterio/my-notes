@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@notionhq/client": "2.2.3",
+    "dayjs": "1.11.7",
     "next": "13.2.4",
     "notion-to-md": "2.5.5",
     "react": "18.2.0",
